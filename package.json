@@ -11,9 +11,9 @@
     "raw": "node-red-contrib-xiaomi-smart-home@1.0.3",
     "name": "node-red-contrib-xiaomi-smart-home",
     "escapedName": "node-red-contrib-xiaomi-smart-home",
-    "rawSpec": "2.0.3",
+    "rawSpec": "2.0.4",
     "saveSpec": null,
-    "fetchSpec": "2.0.3"
+    "fetchSpec": "2.0.4"
   },
   "_requiredBy": [
     "#USER",
@@ -27,12 +27,12 @@
     "name": "mafof"
   },
   "bugs": {
-    "url": "https://github.com/maqfof/node-red-contrib-xiaomi-smart-home/issues"
+    "url": "https://github.com/sergewddm/node-red-contrib-xiaomi-smart-home.git/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
   "description": "This is node for node-red which can receive message and send command from device Xiaomi smart home.<br>\r <b>support all devices*</b> <br>\r support for all devices is experimental technology, and may experience crashes with the module.",
-  "homepage": "https://github.com/mafof/node-red-contrib-xiaomi-smart-home#readme",
+  "homepage": "https://github.com/sergewddm/node-red-contrib-xiaomi-smart-home.git#readme",
   "keywords": [
     "node-red",
     "xiaomi-smart-home"
@@ -46,8 +46,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mafof/node-red-contrib-xiaomi-smart-home.git"
+    "url": "git+https://github.com/sergewddm/node-red-contrib-xiaomi-smart-home.git"
   },
   "scripts": {},
-  "version": "2.0.3"
+  "version": "2.0.4"
 }

@@ -132,12 +132,13 @@ class Socket {
 
   // TODO: Проверка флаг в настройках плагина
   checkSendCurrentDevice(model, modelsNode) {
-    for(var key in modelsNode)
-      if(key == model && modelsNode[key] == true)
-				return true;
-		if(model == "sensor_motion.aq2" && modelsNode['sensor_motion_aq2'] == true)
-			return true;
-    return false;
+      for (var key in modelsNode)
+          /* if(key == model && modelsNode[key] == true)
+                     return true;
+             if(model == "sensor_motion.aq2" && modelsNode['sensor_motion_aq2'] == true)
+                 return true;
+         return false; */
+          return true;
   }
 }
 module.exports = Socket;
